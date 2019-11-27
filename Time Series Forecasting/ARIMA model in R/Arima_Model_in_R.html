@@ -1763,7 +1763,7 @@ adf.test(sales_ts_d1)</code></pre>
 <h4>13/ LJung test for serial correlation on Residuals</h4>
 <ul>
 <li>Null Hypothesis : No Serial correlation up to a certain lag</li>
-<li>Reject NUll Hypothesis if p-value less than significant level(0.05)</li>
+<li>Do NOT reject NUll Hypothesis if p-value greater than significant level</li>
 </ul>
 <pre class="r"><code>Box.test(tsMod$residuals, type = &#39;Ljung-Box&#39;)</code></pre>
 <pre><code>## 

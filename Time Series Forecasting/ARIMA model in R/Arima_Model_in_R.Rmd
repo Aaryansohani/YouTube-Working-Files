@@ -108,7 +108,7 @@ autoplot(forecast(tsMod,h=12))
 
 #### 13/ LJung test for serial correlation on Residuals 
 - Null Hypothesis : No Serial correlation up to a certain lag
-- Reject NUll Hypothesis if p-value less than significant level(0.05)
+- Do NOT reject NUll Hypothesis if p-value greater than significant level
 ```{r}
 Box.test(tsMod$residuals, type = 'Ljung-Box')
 ```
