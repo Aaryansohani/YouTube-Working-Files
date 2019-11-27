@@ -22,6 +22,9 @@ autoplot(sales_ts)
 #               (Do NOT Reject if P value > sig lvl (1%, 5%, 10%) )
 adf.test(sales_ts)
 
+#Null Hypothesis not Rejected - Series is Non Stationary
+
+#We will use first order difference to make it Stationary
 sales_ts_d1 <- diff(sales_ts, differences = 1)
 adf.test(sales_ts_d1)
 
