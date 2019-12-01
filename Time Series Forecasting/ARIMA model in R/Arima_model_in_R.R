@@ -20,14 +20,19 @@ autoplot(sales_ts)
 #Perform ADF Test
 #Null Hypothesis - Non Stationary 
 #               (Do NOT Reject if P value > sig lvl (1%, 5%, 10%) )
-adf.test(sales_ts)
+adf.test(sales_ts, k= 12)
 
 #Null Hypothesis not Rejected - Series is Non Stationary
 
 #We will use first order difference to make it Stationary
 sales_ts_d1 <- diff(sales_ts, differences = 1)
-adf.test(sales_ts_d1)
+adf.test(sales_ts_d1, k=12)
 
+#Still not Stationary; We will take 2nd order Difference
+sales_ts_d1 <- diff(sales_ts, differences = 2)
+adf.test(sales_ts_d1, k=12)
+
+#Check plot
 autoplot(sales_ts_d1)
 
 #Since P is very small and less than sig lvl - 
@@ -38,14 +43,14 @@ autoplot(sales_ts_d1)
 
 #Run ACF test to select AR term or the p term - correlation between lags
 #Acf(sales_ts)
-Acf(sales_ts_d1)
+Acf(sales_ts_d1) #choosing 6
 
 #Run PACF test to select MA term or the q term - 
 #Pacf(sales_ts) 
-Pacf(sales_ts_d1) 
+Pacf(sales_ts_d1) #choosing 5
 
 #BASIC ARIMA - does not work that good
-tsMod <- Arima(y = sales_ts,order = c(6,1,6))
+tsMod <- Arima(y = sales_ts,order = c(6,2,5))
 
 #Summary of the model
 tsMod
@@ -55,10 +60,5 @@ forecast(tsMod,h=12)
 
 #Plot Sales with forecast 
 autoplot(forecast(tsMod,h=12))
-
-#LJung test for serial correlation on Residuals 
-#Null Hypothesis : No Serial correlation up to a certain lag
-#Do NOT reject NUll Hypothesis if p-value greater than significant level
-Box.test(tsMod$residuals, type = 'Ljung-Box')
 
 
