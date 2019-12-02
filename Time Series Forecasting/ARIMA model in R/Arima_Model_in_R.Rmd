@@ -45,7 +45,7 @@ Stationarity : A stationary process has a mean and variance that do not change o
 ##### Perform ADF Test
 Null Hypothesis - Non Stationary (Do **NOT** Reject if P value > sig lvl {1%, 5%, 10%} )
 ```{r}
-adf.test(sales_ts)
+adf.test(sales_ts, k = 12)
 ```
 Since P is not greater sig lvl - The Series is **NON Stationary**
 
@@ -54,41 +54,55 @@ We will take the first difference to make it Stationary
 ##### Perform ADF Test on First Difference
 ```{r}
 sales_ts_d1 <- diff(sales_ts, differences = 1)
-adf.test(sales_ts_d1)
+adf.test(sales_ts_d1, k = 12)
 ```
+
+First Level Difference is **NON Stationary**
+
 ```{r}
 autoplot(sales_ts_d1)
 ```
 
+##### Perform ADF Test on Second Difference
+```{r}
+sales_ts_d2 <- diff(sales_ts, differences = 2)
+adf.test(sales_ts_d2, k = 12)
+```
+
 Much better and Stationary. 
+
+```{r}
+autoplot(sales_ts_d2)
+```
+
 
 ##### ARIMA (p,d,q)
 q term will remain 1 - since we took the first difference 
 
-#### 7/ Run ACF test to select AR term or the p term
-ACF - Correlation between lags
-```{r}
-Acf(sales_ts)
-```
-##### We will run the same test with differenced series
-```{r}
-Acf(sales_ts_d1)
-```
-
-#### 8/ Run PACF test to select MA term or the q term 
-PACF - Correlation between moving averages
+#### 7/ Run PACF test to select AR term or the p term
+PACF - Correlation between lags
 ```{r}
 Pacf(sales_ts)
 ```
 ##### We will run the same test with differenced series
 ```{r}
-Pacf(sales_ts_d1) 
+Pacf(sales_ts_d2)
+```
+
+#### 8/ Run ACF test to select MA term or the q term 
+ACF - Correlation between moving averages
+```{r}
+Acf(sales_ts)
+```
+##### We will run the same test with differenced series
+```{r}
+Acf(sales_ts_d2) 
 ```
 
 #### 9/ BASIC ARIMA
 We will use p and q as 6; d will be 1
 ```{r}
-tsMod <- Arima(y = sales_ts,order = c(6,1,6))
+tsMod <- Arima(y = sales_ts,order = c(7,2,6))
 ```
 
 #### 10/ Summary of the model
@@ -106,9 +120,3 @@ forecast(tsMod,h=12)
 autoplot(forecast(tsMod,h=12))
 ```
 
-#### 13/ LJung test for serial correlation on Residuals 
-- Null Hypothesis : No Serial correlation up to a certain lag
-- Do NOT reject NUll Hypothesis if p-value greater than significant level
-```{r}
-Box.test(tsMod$residuals, type = 'Ljung-Box')
-```

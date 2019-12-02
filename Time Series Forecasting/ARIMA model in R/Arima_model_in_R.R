@@ -41,16 +41,16 @@ autoplot(sales_ts_d1)
 #ARIMA (p,d,q)
 
 
-#Run ACF test to select AR term or the p term - correlation between lags
+#Run PACF test to select AR term or the p term - correlation between lags
+#Pacf(sales_ts) 
+Pacf(sales_ts_d1) #choosing 7
+
+#Run ACF test to select MA term or the q term - 
 #Acf(sales_ts)
 Acf(sales_ts_d1) #choosing 6
 
-#Run PACF test to select MA term or the q term - 
-#Pacf(sales_ts) 
-Pacf(sales_ts_d1) #choosing 5
-
 #BASIC ARIMA - does not work that good
-tsMod <- Arima(y = sales_ts,order = c(6,2,5))
+tsMod <- Arima(y = sales_ts,order = c(7,2,6))
 
 #Summary of the model
 tsMod
