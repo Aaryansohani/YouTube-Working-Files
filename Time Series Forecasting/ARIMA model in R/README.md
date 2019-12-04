@@ -47,15 +47,15 @@ Read Sales Dataset
 ```r
 sales <- read.csv("sales.csv")
 ```
-![Sample](Sales.png)
+![Sample](images/Sales.png)
 
 ARIMA Model in R Process
 ========================================================
-![Sample](ARIMA_MODEL_IN R_Process.jpg)
+![Sample](images/ARIMA_MODEL_IN R_Process.jpg)
 
 ARIMA Model in R Process
 ========================================================
-![Sample](ARIMA_MODEL_IN R_Process1.jpg)
+![Sample](images/ARIMA_MODEL_IN R_Process1.jpg)
 
 Change Sales trend to Time Series
 ========================================================
@@ -84,7 +84,7 @@ Check Stationarity
 
 **Stationarity** : A stationary process has a mean and variance that do not change overtime and the process does not have trend.
 
-![Sample](Stationary.png)
+![Sample](images/Stationary.png)
 
 Perform ADF Test
 ========================================================
