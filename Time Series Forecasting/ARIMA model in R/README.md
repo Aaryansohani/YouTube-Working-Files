@@ -8,11 +8,11 @@ transition: rotate
 
 
 ========================================================
-![Sample](ARIMA_MODEL_IN_R_Intro.jpg)
+![Sample](images/ARIMA_MODEL_IN_R_Intro.jpg)
 
 
 ========================================================
-![Sample](ARIMA_MODEL_IN_R_Objective.jpg)
+![Sample](images/ARIMA_MODEL_IN_R_Objective.jpg)
 
 Links
 ========================================================
