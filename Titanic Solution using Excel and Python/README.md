@@ -2,6 +2,8 @@
 
 1. [Starter Code](https://www.kaggle.com/funxexcel/titanic-basic-solution-with-logistic-regression)
 
+![Please Upvote Starter Code on Kaggle :)](https://github.com/FunXExcel/YouTube-Working-Files/blob/master/Titanic%20Solution%20using%20Excel%20and%20Python/Kaggle_UpVote.PNG)
+
 # Kaggle Titanic Solution using Excel & Python (16 Videos)
 1. [Download Data &amp; First Submission](https://www.youtube.com/watch?v=CCCjYVJuwU4&amp;list=PLN-u2zr6UoV8z7hbZb2WGNA1di6VdnUGU&amp;index=2&amp;t=0s)
 2. [Exploring Data/Missing Values](https://www.youtube.com/watch?v=H6x6R94HsxI&amp;list=PLN-u2zr6UoV8z7hbZb2WGNA1di6VdnUGU&amp;index=2)
