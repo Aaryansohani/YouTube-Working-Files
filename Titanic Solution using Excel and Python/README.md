@@ -1,1 +1,3 @@
-[![Titanic Series](thumbnail.jpg)](https://www.youtube.com/watch?v=CCCjYVJuwU4&list=PLN-u2zr6UoV8z7hbZb2WGNA1di6VdnUGU&index=1)
+#Solution Kernels
+
+1. [![Starter Code](thumbnail.jpg)](https://www.kaggle.com/funxexcel/titanic-basic-solution-with-logistic-regression)
