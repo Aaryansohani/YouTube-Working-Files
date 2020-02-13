@@ -2,8 +2,7 @@
 
 This post list all the videos listed on my YouTube Channel. 
 
-# Kaggle Titanic Solution using Excel & Python
-## 16 Videos
+# Kaggle Titanic Solution using Excel & Python (16 Videos)
 1. [Download Data &amp; First Submission](https://www.youtube.com/watch?v=CCCjYVJuwU4&amp;list=PLN-u2zr6UoV8z7hbZb2WGNA1di6VdnUGU&amp;index=2&amp;t=0s)
 2. [Exploring Data/Missing Values](https://www.youtube.com/watch?v=H6x6R94HsxI&amp;list=PLN-u2zr6UoV8z7hbZb2WGNA1di6VdnUGU&amp;index=2)
 3. [Treat Embarked Column](https://www.youtube.com/watch?v=mYq6QByZERU&amp;list=PLN-u2zr6UoV8z7hbZb2WGNA1di6VdnUGU&amp;index=3)
@@ -21,4 +20,12 @@ This post list all the videos listed on my YouTube Channel.
 15. [Decision Tree Grid Search](https://www.youtube.com/watch?v=s0mHEsOWvxQ&amp;list=PLN-u2zr6UoV8z7hbZb2WGNA1di6VdnUGU&amp;index=15)
 16. [Decision Tree with SelectKBest to select best features](https://www.youtube.com/watch?v=siwo7A0fcRk&amp;list=PLN-u2zr6UoV8z7hbZb2WGNA1di6VdnUGU&amp;index=16)
 
+# Data Tools Installation and Quick Start Tips (3 Videos)
+1. [Install Anaconda Python 3.7 on Windows 10 - New Version 2019](https://www.youtube.com/watch?v=FBsXGsMI_5E&list=PLN-u2zr6UoV-kdZHntIIGHQ211N3fS_LT&index=2&t=0s)
+2. [R and R Studion Installation on Windows 10](https://www.youtube.com/watch?v=Unokbp5l5ok&list=PLN-u2zr6UoV-kdZHntIIGHQ211N3fS_LT&index=3&t=0s)
+3. [SqLite Browser 3.11.2 Installation](https://www.youtube.com/watch?v=Z8fJlCweuR8&list=PLN-u2zr6UoV-kdZHntIIGHQ211N3fS_LT&index=4&t=0s)
 
+# R Shiny Dashboard Series (3 Videos)
+1. [Server and UI Element](https://www.youtube.com/watch?v=m9ZDzshT3Ss&list=PLN-u2zr6UoV9DYU9gSCwH-7VuEO6Skgu-&index=2&t=0s)
+2. [Adding Text and Drop Down Inputs](https://www.youtube.com/watch?v=IH-QwUjMfCs&list=PLN-u2zr6UoV9DYU9gSCwH-7VuEO6Skgu-&index=3&t=0s)
+3. [Display text from Select Input](https://www.youtube.com/watch?v=s0WD8KwDUg0&list=PLN-u2zr6UoV9DYU9gSCwH-7VuEO6Skgu-&index=4&t=0s)
