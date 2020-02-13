@@ -3,8 +3,7 @@
 This post list all the videos listed on my YouTube Channel. 
 
 # Kaggle Titanic Solution using Excel & Python
-
-## Videos
+## 16 Videos
 1. [Download Data &amp; First Submission](https://www.youtube.com/watch?v=CCCjYVJuwU4&amp;list=PLN-u2zr6UoV8z7hbZb2WGNA1di6VdnUGU&amp;index=2&amp;t=0s)
 2. [Exploring Data/Missing Values](https://www.youtube.com/watch?v=H6x6R94HsxI&amp;list=PLN-u2zr6UoV8z7hbZb2WGNA1di6VdnUGU&amp;index=2)
 3. [Treat Embarked Column](https://www.youtube.com/watch?v=mYq6QByZERU&amp;list=PLN-u2zr6UoV8z7hbZb2WGNA1di6VdnUGU&amp;index=3)
