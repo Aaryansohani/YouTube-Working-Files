@@ -1,4 +1,4 @@
-# Video List by Playlist 
+Video List by Playlist 
 
 # Getting Started with Machine Learning Codes (5 Videos)
 1. [sklearn basic Logistic Regression](https://www.youtube.com/watch?v=tI_Pco7snZw&list=PLN-u2zr6UoV9ELCTv6n8310WJkZ-xwVi3&index=2&t=0s)
