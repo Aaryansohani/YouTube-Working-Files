@@ -62,4 +62,5 @@ This post list all the videos listed on my YouTube Channel.
 57. [Telusko, 873k](https://www.youtube.com/user/javaboynavin)
 58. [BeardedDev, 2.68k](https://www.youtube.com/channel/UCWczzX6DyFV2KOYP_-CEZUA/videos)
 59. [Data Science Festival, 2.09k](https://www.youtube.com/channel/UCB02fDSj9GR4rhb1APMNclw/videos)
-60. [Sigma Coding, 65.k](https://www.youtube.com/channel/UCBsTB02yO0QGwtlfiv5m25Q)
+60. [Sigma Coding, 65k](https://www.youtube.com/channel/UCBsTB02yO0QGwtlfiv5m25Q)
+61. [Michael Galarnyk, 7.99k](https://www.youtube.com/channel/UC2QvKS5O6QhqaZi4LyAEUnA)
