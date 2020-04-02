@@ -3,7 +3,7 @@
 This post list all the videos listed on my YouTube Channel. 
 
 # Getting Started with Machine Learning Codes (5 Videos)
-0. [Data Science with Kunaal Naik](https://www.youtube.com/KunaalNaik)
+- [Data Science with Kunaal Naik](https://www.youtube.com/KunaalNaik)
 1. [The Data Science Show,4.15k](https://www.youtube.com/channel/UCLSFrH7H3Memua6CV7bdVcQ)
 2. [Data School, 129k](https://www.youtube.com/channel/UCnVzApLJE2ljPZSeQylSEyg)
 3. [Data Science Tutorials, 16.2k](https://www.youtube.com/channel/UCk5tiFqPvdjsl7yT4mmokmg)
