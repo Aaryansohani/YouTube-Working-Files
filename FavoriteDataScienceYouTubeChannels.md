@@ -1,8 +1,5 @@
-# Data Science with Kunaal
+# My Favorite YouTube Channels to Learn Data Science
 
-This post list all the videos listed on my YouTube Channel. 
-
-# Getting Started with Machine Learning Codes (5 Videos)
 - [Data Science with Kunaal Naik](https://www.youtube.com/KunaalNaik)
 1. [The Data Science Show,4.15k](https://www.youtube.com/channel/UCLSFrH7H3Memua6CV7bdVcQ)
 2. [Data School, 129k](https://www.youtube.com/channel/UCnVzApLJE2ljPZSeQylSEyg)
